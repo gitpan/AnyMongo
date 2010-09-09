@@ -1,6 +1,6 @@
 package AnyMongo::Collection;
 BEGIN {
-  $AnyMongo::Collection::VERSION = '0.02';
+  $AnyMongo::Collection::VERSION = '0.03';
 }
 # ABSTRACT: Asynchronous MongoDB::Collection
 use strict;
@@ -364,7 +364,7 @@ AnyMongo::Collection - Asynchronous MongoDB::Collection
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHORS
 

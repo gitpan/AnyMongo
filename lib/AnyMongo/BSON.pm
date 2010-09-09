@@ -1,6 +1,6 @@
 package AnyMongo::BSON;
 BEGIN {
-  $AnyMongo::BSON::VERSION = '0.02';
+  $AnyMongo::BSON::VERSION = '0.03';
 }
 # ABSTRACT: BSON encoding and decoding utilities
 use strict;
@@ -26,7 +26,7 @@ AnyMongo::BSON - BSON encoding and decoding utilities
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

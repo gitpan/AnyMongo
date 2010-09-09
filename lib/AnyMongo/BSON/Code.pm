@@ -1,6 +1,6 @@
 package AnyMongo::BSON::Code;
 BEGIN {
-  $AnyMongo::BSON::Code::VERSION = '0.02';
+  $AnyMongo::BSON::Code::VERSION = '0.03';
 }
 # ABSTRACT: BSON type,it's used to represent JavaScript code and, optionally, scope.
 use strict;
@@ -35,7 +35,7 @@ AnyMongo::BSON::Code - BSON type,it's used to represent JavaScript code and, opt
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

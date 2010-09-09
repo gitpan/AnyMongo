@@ -1,6 +1,6 @@
 package AnyMongo::MongoSupport;
 BEGIN {
-  $AnyMongo::MongoSupport::VERSION = '0.02';
+  $AnyMongo::MongoSupport::VERSION = '0.03';
 }
 # ABSTRACT: Internal functions to support mongo wired protocol
 use strict;
@@ -36,7 +36,7 @@ AnyMongo::MongoSupport - Internal functions to support mongo wired protocol
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 Mongo Wire Protocol
 

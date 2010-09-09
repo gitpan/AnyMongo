@@ -1,6 +1,6 @@
 package AnyMongo::Compat;
 BEGIN {
-  $AnyMongo::Compat::VERSION = '0.02';
+  $AnyMongo::Compat::VERSION = '0.03';
 }
 # ABSTRACT: Make better compatible with L<MongoDB>.
 use strict;
@@ -31,57 +31,40 @@ sub make_fake_isa {
 *AnyMongo::BSON::MaxKey::isa = make_fake_isa('MongoDB::MaxKey');
 *AnyMongo::BSON::MinKey::isa = make_fake_isa('MongoDB::MinKey');
 
-package MongoDB;
-BEGIN {
-  $MongoDB::VERSION = '0.02';
-}
+package
+ MongoDB;
 use parent 'AnyMongo';
 
-package MongoDB::Database;
-BEGIN {
-  $MongoDB::Database::VERSION = '0.02';
-}
+package
+ MongoDB::Database;
 use parent 'AnyMongo::Database';
 
-package MongoDB::Connection;
-BEGIN {
-  $MongoDB::Connection::VERSION = '0.02';
-}
+package
+ MongoDB::Connection;
 use parent 'AnyMongo::Connection';
 
-package MongoDB::Cursor;
-BEGIN {
-  $MongoDB::Cursor::VERSION = '0.02';
-}
+package
+ MongoDB::Cursor;
 use parent 'AnyMongo::Cursor';
 
-package MongoDB::Collection;
-BEGIN {
-  $MongoDB::Collection::VERSION = '0.02';
-}
+package
+ MongoDB::Collection;
 use parent 'AnyMongo::Collection';
 
-package MongoDB::BSON;
-BEGIN {
-  $MongoDB::BSON::VERSION = '0.02';
-}
+package
+ MongoDB::BSON;
 use parent 'AnyMongo::BSON';
 
-package MongoDB::Code;
-BEGIN {
-  $MongoDB::Code::VERSION = '0.02';
-}
+package
+ MongoDB::Code;
 use parent 'AnyMongo::BSON::Code';
 
-package MongoDB::OID;
-BEGIN {
-  $MongoDB::OID::VERSION = '0.02';
-}
+package
+ MongoDB::OID;
 use parent 'AnyMongo::BSON::OID';
-package MongoDB::Timestamp;
-BEGIN {
-  $MongoDB::Timestamp::VERSION = '0.02';
-}
+
+package
+ MongoDB::Timestamp;
 use parent 'AnyMongo::BSON::Timestamp';
 1;
 __END__
@@ -93,7 +76,7 @@ AnyMongo::Compat - Make better compatible with L<MongoDB>.
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHORS
 

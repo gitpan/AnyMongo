@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     'namespace::autoclean' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t t/perl-driver-api/*.t'
   }

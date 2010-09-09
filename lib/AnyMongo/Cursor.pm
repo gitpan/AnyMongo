@@ -1,6 +1,6 @@
 package AnyMongo::Cursor;
 BEGIN {
-  $AnyMongo::Cursor::VERSION = '0.02';
+  $AnyMongo::Cursor::VERSION = '0.03';
 }
 #ABSTRACT: A asynchronous cursor/iterator for Mongo query results
 use strict;
@@ -421,7 +421,7 @@ AnyMongo::Cursor - A asynchronous cursor/iterator for Mongo query results
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

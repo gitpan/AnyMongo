@@ -1,6 +1,6 @@
 package AnyMongo::Connection;
 BEGIN {
-  $AnyMongo::Connection::VERSION = '0.02';
+  $AnyMongo::Connection::VERSION = '0.03';
 }
 # ABSTRACT: Asynchronous MongoDB::Connection
 use strict;
@@ -557,7 +557,7 @@ AnyMongo::Connection - Asynchronous MongoDB::Connection
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

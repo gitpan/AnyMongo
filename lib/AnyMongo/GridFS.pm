@@ -1,6 +1,6 @@
 package AnyMongo::GridFS;
 BEGIN {
-  $AnyMongo::GridFS::VERSION = '0.02';
+  $AnyMongo::GridFS::VERSION = '0.03';
 }
 # ABSTRACT: Asynchronous MongoDB::GridFS
 use strict;
@@ -17,7 +17,7 @@ AnyMongo::GridFS - Asynchronous MongoDB::GridFS
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

@@ -1,10 +1,10 @@
 package AnyMongo;
 BEGIN {
-  $AnyMongo::VERSION = '0.02';
+  $AnyMongo::VERSION = '0.03';
 }
 # ABSTRACT: Asynchronous non-blocking MongoDB driver for AnyEvent applications
 BEGIN {
-  $AnyMongo::VERSION = '0.02';
+  $AnyMongo::VERSION = '0.03';
 }
 use strict;
 use warnings;
@@ -27,7 +27,7 @@ AnyMongo - Asynchronous non-blocking MongoDB driver for AnyEvent applications
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

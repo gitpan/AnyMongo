@@ -1,6 +1,6 @@
 package AnyMongo::Database;
 BEGIN {
-  $AnyMongo::Database::VERSION = '0.02';
+  $AnyMongo::Database::VERSION = '0.03';
 }
 # ABSTRACT: Asynchronous MongoDB::Database
 use strict;
@@ -130,7 +130,7 @@ AnyMongo::Database - Asynchronous MongoDB::Database
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

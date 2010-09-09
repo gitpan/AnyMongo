@@ -1,6 +1,6 @@
 package AnyMongo::BSON::Timestamp;
 BEGIN {
-  $AnyMongo::BSON::Timestamp::VERSION = '0.02';
+  $AnyMongo::BSON::Timestamp::VERSION = '0.03';
 }
 # ABSTRACT: BSON Timestamps data type, it is used internally by MongoDB's replication.
 use strict;
@@ -36,7 +36,7 @@ AnyMongo::BSON::Timestamp - BSON Timestamps data type, it is used internally by 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

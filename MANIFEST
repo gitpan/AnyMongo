@@ -9,7 +9,6 @@ README
 benchmarks/bench.pl
 dist.ini
 inc/AnyMongo/MakeMaker.pm
-lib/AnyEvent/MongoDB.pm
 lib/AnyMongo.pm
 lib/AnyMongo/BSON.pm
 lib/AnyMongo/BSON/Code.pm

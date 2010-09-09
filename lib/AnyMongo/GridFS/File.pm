@@ -1,6 +1,6 @@
 package AnyMongo::GridFS::File;
 BEGIN {
-  $AnyMongo::GridFS::File::VERSION = '0.02';
+  $AnyMongo::GridFS::File::VERSION = '0.03';
 }
 # ABSTRACT: A un-blocking Mongo GridFS file
 use strict;
@@ -17,7 +17,7 @@ AnyMongo::GridFS::File - A un-blocking Mongo GridFS file
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHORS
 

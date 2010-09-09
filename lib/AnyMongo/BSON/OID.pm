@@ -1,6 +1,6 @@
 package AnyMongo::BSON::OID;
 BEGIN {
-  $AnyMongo::BSON::OID::VERSION = '0.02';
+  $AnyMongo::BSON::OID::VERSION = '0.03';
 }
 # ABSTRACT: A Mongo ObjectId
 use strict;
@@ -75,7 +75,7 @@ AnyMongo::BSON::OID - A Mongo ObjectId
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
